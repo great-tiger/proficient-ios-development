@@ -10,11 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    /*
-        在使用auto layout的时候label一直有橙色线，不知为何。
-        问题还真不好找，是因为label中的默认值，被我删掉了。加上就可以了。
-    */
-    
     @IBAction func btnPressed(sender: UIButton) {
       let title=sender.titleForState(.Normal)!;
       let plainText="\(title) button pressed";
